@@ -1,5 +1,4 @@
 import intersection from 'https://deno.land/x/denodash@0.1.3/src/array/intersection.ts';
-
 const input = (await Deno.readTextFile('./input.txt')).split('\n');
 
 function isLowerCase(char: string): boolean {
